@@ -13,6 +13,7 @@ calc1 = base * altura
 print("El área del rectángulo es de", calc1, "cm")
 print("\nFinal ejercicio 1.")
 print("\n---")
+
 # Desarrolle un programa que solicite la distancia de su casa a la Universidad, el costo por kilómetro, la cantidad
 # de días a la semana que viaja a la Universidad y que calcule el costo total de trasladarse por cuatrimestre.
 # Asuma que cada visite implica ida y vuelta y que el cuatrimestre tiene 15 semanas.
@@ -24,3 +25,5 @@ calc2 = distancia * costo_x_kilometro * cant_dias_viaje * CANTIDAD_SEMANAS_U
 print("El costo total de trasladarse por cuatrimestre es aproximadamente:", calc2, "CRC")
 print("\nFinal ejercicio 2.")
 print("\n---")
+
+# Desarrolle un programa que solicite al usuario la edad de 5 personas y le muestre cuál es la edad promedio

@@ -27,3 +27,13 @@ print("\nFinal ejercicio 2.")
 print("\n---")
 
 # Desarrolle un programa que solicite al usuario la edad de 5 personas y le muestre cuál es la edad promedio
+print("\nEjercicio 3:\n")
+edad_persona1 = int(input("Introduzca la edad de la primera persona:\n~ "))
+edad_persona2 = int(input("Introduzca la edad de la segunda persona:\n~ "))
+edad_persona3 = int(input("Introduzca la edad de la tercera persona:\n~ "))
+edad_persona4 = int(input("Introduzca la edad de la cuarta persona:\n~ "))
+edad_persona5 = int(input("Introduzca la edad de la quinta persona:\n~ "))
+calc3 = (edad_persona1 + edad_persona2 + edad_persona3 + edad_persona4 + edad_persona5) / 5
+print("La edad promedio es aproximadamente", calc3, "años")
+print("\nFinal ejercicio 3.")
+print("\n---")

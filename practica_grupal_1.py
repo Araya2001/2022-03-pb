@@ -2,6 +2,12 @@
 # Proposals (PEP)
 # Referencia: https://peps.python.org/pep-0008/
 
+# Nombre de los integrantes de la práctica grupal:
+# Alejandro Araya Jiménez
+# Isai Badilla Martinez
+# Sebastián Villalobos Mora
+# Adrián Wong Bustos
+
 # Constantes
 CANTIDAD_SEMANAS_U = 15
 CANTIDAD_SEMANAS_LABORALES = 4.2

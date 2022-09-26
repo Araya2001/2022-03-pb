@@ -64,12 +64,14 @@ print("\n---")
 # Con esta información el programa debe mostrar el porcentaje que gasto que corresponde al rubro de alimentación y
 # el porcentaje que queda disponible para otros rubros.
 print("\nEjercicio 5:\n")
-ingreso_mensual = float(input("Introduzca sus ingresos mensuales (CRC):"))
-gasto_alimento_mensual = float(input("Introduzca sus gastos en alimentación mensual (CRC):"))
+ingreso_mensual = float(input("Introduzca sus ingresos mensuales (CRC):\n~ "))
+gasto_alimento_mensual = float(input("Introduzca sus gastos en alimentación mensual (CRC):\n~ "))
 porcentaje_alimento = (100 * gasto_alimento_mensual) / ingreso_mensual
 porcentaje_restante = 100 - porcentaje_alimento
+format_expression = "{:.2f}"
 print("R/ El porcentaje de gastos de alimentación con respecto a los ingresos mensuales es del",
-      str(porcentaje_alimento) + "%", "\nMientras tanto, el porcentaje de dichos ingresos disponible para otros "
-                                      "rubros es del", str(porcentaje_restante) + "%.")
+      format_expression.format(porcentaje_alimento) + "%", "\nMientras tanto, el porcentaje de dichos ingresos "
+                                                           "disponible para otros rubros es del",
+      format_expression.format(porcentaje_restante) + "%.")
 print("\nFinal ejercicio 5.")
 print("\n---")

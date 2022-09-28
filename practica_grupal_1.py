@@ -19,7 +19,8 @@ print("\nEjercicio 1:\n")
 base = float(input("Ingrese la base del rectángulo (cm):\n~ "))
 altura = float(input("Ingrese la altura del rectángulo (cm):\n~ "))
 calc1 = base * altura
-print("R/ El área del rectángulo es de", calc1, "cm")
+perimetro = (base * 2) + (altura * 2)
+print("R/ El área del rectángulo es de", calc1, "cm y el perímetro de este es de", perimetro, "cm")
 print("\nFinal ejercicio 1.")
 print("\n---")
 
@@ -30,7 +31,7 @@ print("\nEjercicio 2:\n")
 distancia = float(input("Distancia de su casa a la Universidad (Km):\n~ "))
 costo_x_kilometro = float(input("Costo por kilómetro del viaje (CRC):\n~ "))
 cant_dias_viaje = int(input("Cantidad de dias que viaja a la Universidad:\n~ "))
-calc2 = distancia * costo_x_kilometro * cant_dias_viaje * CANTIDAD_SEMANAS_U
+calc2 = (distancia * 2) * costo_x_kilometro * cant_dias_viaje * CANTIDAD_SEMANAS_U
 print("R/ El costo total de trasladarse por cuatrimestre es aproximadamente:", calc2, "CRC")
 print("\nFinal ejercicio 2.")
 print("\n---")

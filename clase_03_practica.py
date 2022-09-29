@@ -52,6 +52,10 @@ if len(str_calc_arr) == 3:
         print("Ingrese una expresión valida")
     formatRegEx = "{:.2f}"
     print(str_calc, "=", formatRegEx.format(calc))
+    print("Suma:", num1 + num2)
+    print("Resta:", num1 - num2)
+    print("Multiplicación:", num1 * num2)
+    print("División:", num1 / num2)
 else:
     print("Ingrese una expresión valida")
 

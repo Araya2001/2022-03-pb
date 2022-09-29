@@ -6,13 +6,13 @@
 # Elaborar un programa que muestre un mensaje de bienvenida para una persona.
 # Debe imprimir la información como se muestra a continuación:
 # Bienvenido, estimado Nombre PrimerApellido SegundoApellido. -> primer_apellido, segundo_apellido
-print("\nEjercicio 1:\n")
-nombre = str(input("Ingrese su nombre:\n~ "))
-primer_apellido = str(input("Ingrese su primer apellido:\n~ "))
-segundo_apellido = str(input("Ingrese su segundo apellido:\n~ "))
-print("Bienvenido, estimado", nombre, primer_apellido, segundo_apellido + ".")
-print("\nFinal ejercicio 1.")
-print("\n---")
+# print("\nEjercicio 1:\n")
+# nombre = str(input("Ingrese su nombre:\n~ "))
+# primer_apellido = str(input("Ingrese su primer apellido:\n~ "))
+# segundo_apellido = str(input("Ingrese su segundo apellido:\n~ "))
+# print("Bienvenido, estimado", nombre, primer_apellido, segundo_apellido + ".")
+# print("\nFinal ejercicio 1.")
+# print("\n---")
 
 # 2.
 # ¡Vamos a crear una especie de calculadora simple! El programa calculará el de la suma, la resta,
@@ -50,8 +50,8 @@ if len(str_calc_arr) == 3:
         calc = num1 / num2
     else:
         print("Ingrese una expresión valida")
-    formatRegEx = "{:.2f}"
-    print(str_calc, "=", formatRegEx.format(calc))
+    format_expression = "{:.2f}"
+    print(str_calc, "=", format_expression.format(calc))
     print("Suma:", num1 + num2)
     print("Resta:", num1 - num2)
     print("Multiplicación:", num1 * num2)

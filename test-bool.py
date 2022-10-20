@@ -7,12 +7,12 @@ cant_meses_prestamo = int(
 if cant_meses_prestamo <= 3:
     print("No ingresó una cantidad de meses válida")
 else:
-    if cant_meses_prestamo >= 5000:
-        monto_add_interes = monto_a_solicitar * 1.2
-        monto_interes = monto_a_solicitar * 0.2
+    if monto_a_solicitar >= 5000:
+        monto_add_interes = monto_a_solicitar * 1.02
+        monto_interes = monto_a_solicitar * 0.02
     else:
-        monto_add_interes = monto_a_solicitar * 1.3
-        monto_interes = monto_a_solicitar * 0.3
+        monto_add_interes = monto_a_solicitar * 1.03
+        monto_interes = monto_a_solicitar * 0.03
 
     cuota = monto_add_interes / cant_meses_prestamo
     print("Cuota a pagar:", "{:.2f}".format(cuota))

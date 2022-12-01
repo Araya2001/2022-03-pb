@@ -1,4 +1,5 @@
 # Estudio de Caso Práctico - Alejandro Araya
+# Sección 3
 
 def is_even(grade):
     return grade % 2 == 0

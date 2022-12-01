@@ -44,7 +44,7 @@ def read_student_agg():
         y_n = str(input(students_agg_message))
         if y_n.lower() == "n":
             y_n_break_flag = True
-        if y_n.lower() == "y":
+        elif y_n.lower() == "y":
             while not grade_break_flag:
                 grade = float(input("Ingrese la nota final del estudiante: "))
                 grade_break_flag = is_between_limits(grade)

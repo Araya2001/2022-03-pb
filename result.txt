@@ -1,0 +1,16 @@
+1670464836.346779 - resultado - sumatoria de fila 6 :	23163511
+1670464836.346902 - resultado - sumatoria de columna 1 :	38617307
+1670464836.346984 - resultado - total de números pares en la matriz :	147191352
+1670464836.347032 - resultado - total de números impares en la matriz :	99494178
+1670464887.474075 - resultado - sumatoria de fila 6 :	29374822
+1670464887.474186 - resultado - sumatoria de columna 5 :	30298852
+1670464887.474226 - resultado - total de números pares en la matriz :	154556984
+1670464887.474249 - resultado - total de números impares en la matriz :	88959105
+1670464918.254592 - resultado - sumatoria de fila 1 :	36791760
+1670464918.2547 - resultado - sumatoria de columna 2 :	38667482
+1670464918.25474 - resultado - total de números pares en la matriz :	29
+1670464918.254763 - resultado - total de números impares en la matriz :	20
+2022-12-07T20:05:25.036786 - resultado - sumatoria de fila 1 :	29387484
+2022-12-07T20:05:25.037110 - resultado - sumatoria de columna 1 :	27503152
+2022-12-07T20:05:25.037219 - resultado - total de números pares en la matriz :	28
+2022-12-07T20:05:25.037262 - resultado - total de números impares en la matriz :	21
